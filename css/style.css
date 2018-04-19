@@ -1,0 +1,487 @@
+/*global#######-mobile-first princip*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+     text-align: center
+
+}
+
+h3{
+    
+    font-size: 17px;
+    text-align: center;
+    
+}
+h5 {
+    font-size: 10px;
+    text-align:center;
+}
+
+.tekst {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px 5% 15px 5%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.container {
+    /*-styling af header*/
+    background-color: rgb(255, 255, 255, 0.5);
+    border-bottom: solid #b2d467 5px;
+    height: 136px;
+    width: 100%;
+    position: static;
+    background-size: cover;
+
+}
+
+.forside-billede {
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+body {
+    background-image: url(baggrund-blade-done.jpg)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#samlet-container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {}
+
+#body {
+    padding: 10px;
+    padding-bottom: 60px;
+    height: 100%;
+    /* Height of the footer */
+}
+
+#footer {
+  
+  
+  
+    /* Height of the footer */
+    
+}
+
+.footer-flexbox{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: ;
+    bottom: 0%;
+    min-height: 60px;
+    /* højde på footer */
+    background: #ffffff;
+    padding: %;
+    background: #ffffff;
+    width:100%;
+    bottom: 0;
+    
+    }
+
+
+.planteliv {
+margin:15px 0 0 10px
+}
+
+.logo-footer {
+
+  margin:5px 0 0 10px;
+      padding:5%;
+}
+
+
+.footer-tekst {
+   margin:25px 20px 0 15px;
+    width: 35%;
+
+}
+
+
+
+/*-------------------------start header*/
+
+
+.container {
+    /*-styling af header*/
+    background-color: rgb(255, 255, 255, 0.5);
+    border-bottom: solid #b2d467 5px;
+    height: 136px;
+    width: 100%;
+    position: static;
+    background-size: cover;
+
+}
+
+
+.kontakt {
+    /*--hover effekt kontakt---*/
+    color: #897a3c;
+}
+
+
+.logo img {
+
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+.top-icons {
+    position: absolute padding-right: 3%;
+    padding-top: 1%;
+    padding-left:
+}
+
+.top-icons img {
+    padding: ;
+    float: right;
+    display: block;
+    margin: 1%;
+
+}
+
+
+.overskrift {
+    display: none;
+}
+
+/*----------------------burger-menu*/
+
+a {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: tomato;
+}
+
+#menuToggle {
+    display: block;
+    position: relative;
+    top: 45px;
+    left: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 2;
+
+
+}
+
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #000000;
+    background-color: 0.2;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background-color: rgb(255, 255, 255, 0.9);
+    list-style-type: none;
+    -font-: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 5px 0;
+    font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul {
+    transform: none;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+/*------------------slut burger menu*/
+
+/*--------------------------Forside*/
+
+.forside-billede {
+    padding-top: 7%;
+
+}
+
+.forside-billede img {
+    width: 310px;
+    height: 300px;
+}
+
+
+
+
+
+.stueplante-etiket img {
+    width: 300px;
+    height: 120px;
+}
+
+.flex-container {
+
+    margin: 20px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+/*----Side om Stueplanter-----------*/
+
+.flex-container-froe {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+
+    flex-wrap: wrap;
+    margin: 15px;
+
+
+
+}
+
+
+/* Slideshow container */
+
+.mySlides {
+    display: none
+}
+
+
+.slideshow-container {
+    max-width: 500px;
+    margin: 0 10% 0;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.magnet {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+.magnet img {
+    width: 500px;
+    height: 1200px;
+
+}
+
+/*----Side om Spiselige planter-----------*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+
+
+@media screen and (min-width: 1024px)
+/*----------------------------------------------- tablet horisontal*/
+{
+    
+    
+    .tekst{
+        
+       padding: 0 20% 0 20%;
+        width: 100%;
+        
+}
+   
+    /*------------------ header*/
+    #menu {
+        display: none;
+    }
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+        position: absolute;
+        float: left;
+        padding-top: 60px;
+        
+        display: block;
+        position: absolute;
+        margin-left: 30%;
+        width: 55%;
+
+    }
+    .menu-desktop a {
+        padding: 2%;
+        font-size: 20px;
+        font-weight:600;
+        
+
+    }
+
+    .logo img {
+        display: block;
+        position: absolute;
+        margin-left: 3%;
+        margin-top: 30px;
+    }
+    .overskrift {
+
+        position: absolute;
+        display: block;
+        padding-top: 40px;
+        font-size: 20px;
+        padding-left: 12%;
+    }
+    .top-icons {
+        position: absolute;
+        width:90%;
+        margin-top:10px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    .top-icons img {
+      
+     margin:8px;
+      
+    }
+    #kontakt {
+        color: #897a3c;
+
+    }
+
+    /*------------------------------------Forside-----*/
+    .flex-container {
+
+        margin: 2% 2% 2% 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box {
+        margin: 10%;
+
+    }
+
+
+    /*----------sidde om nemme planter----*/
+    .slideshow-container {
+        max-width: 50%;
+    }
+
+.footer-box {
+    
+}
+    }
