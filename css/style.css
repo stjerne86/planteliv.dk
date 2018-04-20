@@ -77,9 +77,6 @@ body {
     /* Height of the footer */
 }
 
-.center img {
-    min-width: 100%;
-}
 
 #footer {
 
@@ -368,6 +365,8 @@ a:hover {
     justify-content: center;
     justify-content: space-around;
     margin: 5%;
+    width: 100%;
+    padding:0 10% 0 10%;
 
 }
 
